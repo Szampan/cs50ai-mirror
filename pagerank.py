@@ -92,7 +92,7 @@ def sample_pagerank(corpus, damping_factor, n):
     for i in pages:
         pages[i] /= n
 
-    return(pages)
+    return pages
 
 def iterate_pagerank(corpus, damping_factor):
     """
