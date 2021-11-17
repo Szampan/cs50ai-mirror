@@ -2,10 +2,6 @@ import sys
 
 from crossword import *
 
-#DELETE ALL IC()
-from icecream import ic     
-
-
 class CrosswordCreator():
 
     def __init__(self, crossword):
